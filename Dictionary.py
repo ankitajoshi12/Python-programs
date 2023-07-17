@@ -1,0 +1,26 @@
+
+example = {}
+example.setdefault('BYTES', []).append('BINARY')
+example.setdefault('BYTES', []).append('BLOB')
+example.setdefault('BYTES',[]).append('BYTE')
+example.setdefault('BYTES',[]).append('VARBYTE')
+example.setdefault('BYTES',[]).append('VARBINARY')
+example.setdefault('DATE',[]).append('DATE')
+example.setdefault('DATE',[]).append('PERIOD(DATE)')
+example.setdefault('ARRAY',[]).append('ARRAY')
+example.setdefault('ARRAY',[]).append('MULTI-DIMENSIONAL ARRAY')
+example.setdefault('BIGNUMERIC',[]).append('INT')
+example.setdefault('BIGNUMERIC',[]).append('INTEGER')
+example.setdefault('BIGNUMERIC',[]).append('BIGINT')
+example.setdefault('BIGNUMERIC',[]).append('SMALLINT')
+example.setdefault('BIGNUMERIC',[]).append('BYTEINT')
+
+print("Bytes:",example['BYTES'])
+print("Array:",example['ARRAY'])
+print("DATE:",example['DATE'])
+print("BIGNUMERIC:",example['BIGNUMERIC'])
+
+# example.setdefault('NUMERIC', []).append('boots')
+# example.setdefault('c', []).append('cat')
+# example.setdefault('a', []).append('ant')
+# example.setdefault('a', []).append('apple')
